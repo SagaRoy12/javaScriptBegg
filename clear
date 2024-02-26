@@ -1,0 +1,22 @@
+[33mcommit e5268928d87c8b7b13e208e990bc4114938f26f9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: SAGAR ROY12 <sagarroy20027@gmail.com>
+Date:   Mon Feb 26 01:27:23 2024 -0800
+
+    [added getTime() function]
+
+[1mdiff --git a/dates.js b/dates.js[m
+[1mindex 383e793..dea295a 100644[m
+[1m--- a/dates.js[m
+[1m+++ b/dates.js[m
+[36m@@ -6,3 +6,11 @@[m [mconst second = currentInfo.getSeconds();[m
+ [m
+ console.log(`${hours} ${minutes} ${second}`)[m
+ [m
+[32m+[m[32m/* to get the Epoch: This refers to a specific point in time used as a reference for[m[41m [m
+[32m+[m[32mmeasuring elapsed time. In JavaScript, the epoch is set to[m[41m [m
+[32m+[m[32mJanuary 1, 1970, 00:00:00 UTC (Coordinated Universal Time).[m
+[32m+[m[32mMilliseconds: The return value of getTime is expressed in milliseconds,[m[41m [m
+[32m+[m[32mwhich are units of one-thousandth of a second.*/[m
+[32m+[m
+[32m+[m[32mconsole.log(currentInfo.getTime())// to get the current time[m
+[32m+[m
