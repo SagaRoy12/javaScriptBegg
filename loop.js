@@ -8,7 +8,7 @@ const prompt = require ("prompt-sync")()
 // }
 // console.log(value)
 
-//for in loop
+//for in loop for objects
 let data={
     sagar: 45,
     raj: 55,
