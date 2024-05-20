@@ -1,4 +1,4 @@
-const prompt = require ("prompt-sync")()
+const prompt = require ("prompt-sync")()  // helps to take user inpt
 // let value = 1
 // let number = prompt("enter the value of number")
 // number = Number.parseInt(number)
